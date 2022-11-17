@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    width: 100vw;
+    background-color: antiquewhite;
+ justify-content: space-between;
+flex-direction: column;
+height: 100vh;
+gap: 2rem;
+}
+
+.Branding{
+    background-color: rgb(186, 128, 56);
+}
+
+.graphic{
+    background-color: rgb(45, 216, 216);
+}
+.logo{
+    background-color: rgb(47, 67, 85);
+}
+.photoshop{
+    background-color: rgb(178, 137, 75);
+}
+.nursing{
+    background-color: rgb(139, 139, 47);
+}

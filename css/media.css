@@ -1,0 +1,20 @@
+body{
+    background-color: azure;
+}
+.branding{
+    columns: 2
+}
+
+@media screen and (min-width: 400px) and (max_width: 800px){
+    body{
+        background-color: aqua;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .branding{
+        columns: 1
+    }
+    
+}
+
