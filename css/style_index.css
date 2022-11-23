@@ -22,4 +22,40 @@ width: 200pxl;
 margin-left: 0%;
 margin-right: 5%;
 position: relative;
+border: 5px solid rgb(149, 49, 49);
+border-radius: 20px;
+animation-name: rainbow;
+animation-duration: 5s;
+animation-iteration-count: 3;
 }
+@keyframes rainbow {
+    0%{
+        border-color: rgb(149, 49, 49);
+    }
+    
+    25%{
+        bborder-color: rgb(77, 127, 202);
+    
+    }
+    50%{
+        border-color: yellow;
+    }
+    75%{
+        border-color: green;
+    }
+    100%{
+        border-color: white;
+    }
+}
+
+#hero {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../media/image/pic.jpg");
+    background-repeat: no-repeat;
+    background-position: 70%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
