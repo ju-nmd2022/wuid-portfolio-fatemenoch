@@ -1,19 +1,21 @@
-
-
-.branding{
-    columns: 2
-}
-
-@media only screen and (min-width: 600px) and (max_width: 1200px){
+@media only screen and (max-width: 1200px) {
     .container {
-        background-color: rgb(148, 236, 16);
+      row-gap: 3em;
+      grid-template-columns: repeat(3, 1fr);
+      background-color: blueviolet;
     }
-}
-}
-
-@media only screen and (max-width: 600px) {
+  }
+  
+  @media only screen and (max-width: 1024px) {
     .container {
-        background-color: aqua;
+      grid-template-columns: repeat(2, 1fr);
+      background-color: brown;
     }
-}
-
+  }
+  
+  @media only screen and (max-width: 760px) {
+    .container {
+      grid-template-columns: repeat(1, 1fr);
+      background-color: beige;
+    }
+  }

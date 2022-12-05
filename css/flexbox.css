@@ -1,7 +1,6 @@
-.container{
+.grid_container{
     display: flex;
     width: 100vw;
-    background-color: antiquewhite;
  justify-content: space-between;
 flex-direction: column;
 height: 100vh;
